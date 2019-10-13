@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:text="Server stopped." />
+
+            <ToggleButton
+                android:id="@+id/serverButton"
+                android:layout_alignParentRight="true"
+                android:layout_width="80dp"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Off" />
+
+            <CheckBox
+                android:id="@+id/checkbox_saved_ip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Use selected profile" />
+
+            <View
+                android:id="@+id/mouseView"
+                android:layout_width="340dp"
+                android:layout_height="400dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="#FFDDDDDD" />
+
+
+        </RelativeLayout>
+    !-->
+
+
+    <View
+        android:id="@+id/mouseView"
+        android:layout_width="369dp"
+        android:layout_height="410dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:background="#FFDDDDDD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
